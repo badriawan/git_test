@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/llm_model/llm_model.egg-info
+writing ../../../build/llm_model/llm_model.egg-info/PKG-INFO
+writing dependency_links to ../../../build/llm_model/llm_model.egg-info/dependency_links.txt
+writing entry points to ../../../build/llm_model/llm_model.egg-info/entry_points.txt
+writing requirements to ../../../build/llm_model/llm_model.egg-info/requires.txt
+writing top-level names to ../../../build/llm_model/llm_model.egg-info/top_level.txt
+writing manifest file '../../../build/llm_model/llm_model.egg-info/SOURCES.txt'
+reading manifest file '../../../build/llm_model/llm_model.egg-info/SOURCES.txt'
+writing manifest file '../../../build/llm_model/llm_model.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yusuf/git_test/build/llm_model/build
+creating /home/yusuf/git_test/build/llm_model/build/lib
+creating /home/yusuf/git_test/build/llm_model/build/lib/llm_model
+copying llm_model/chatgpt.py -> /home/yusuf/git_test/build/llm_model/build/lib/llm_model
+copying llm_model/__init__.py -> /home/yusuf/git_test/build/llm_model/build/lib/llm_model
+running install
+running install_lib
+creating /home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages/llm_model
+copying /home/yusuf/git_test/build/llm_model/build/lib/llm_model/chatgpt.py -> /home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages/llm_model
+copying /home/yusuf/git_test/build/llm_model/build/lib/llm_model/__init__.py -> /home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages/llm_model
+byte-compiling /home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages/llm_model/chatgpt.py to chatgpt.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages/llm_model/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yusuf/git_test/install/llm_model/share/ament_index
+creating /home/yusuf/git_test/install/llm_model/share/ament_index/resource_index
+creating /home/yusuf/git_test/install/llm_model/share/ament_index/resource_index/packages
+copying resource/llm_model -> /home/yusuf/git_test/install/llm_model/share/ament_index/resource_index/packages
+copying package.xml -> /home/yusuf/git_test/install/llm_model/share/llm_model
+running install_egg_info
+Copying ../../../build/llm_model/llm_model.egg-info to /home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages/llm_model-0.0.1-py3.10.egg-info
+running install_scripts
+Installing chatgpt script to /home/yusuf/git_test/install/llm_model/lib/llm_model
+writing list of installed files to '/home/yusuf/git_test/build/llm_model/install.log'

@@ -1,0 +1,6 @@
+Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/git_test/src/ROS-LLM/llm_interfaces -DCMAKE_INSTALL_PREFIX=/home/yusuf/git_test/install/llm_interfaces
+Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/git_test/src/ROS-LLM/llm_interfaces -DCMAKE_INSTALL_PREFIX=/home/yusuf/git_test/install/llm_interfaces
+Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/git_test/build/llm_interfaces -- -j8 -l8
+Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/git_test/build/llm_interfaces -- -j8 -l8
+Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/git_test/build/llm_interfaces
+Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/git_test/build/llm_interfaces

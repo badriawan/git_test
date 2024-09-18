@@ -1,0 +1,272 @@
+[0.388s] Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/git_test/src/ROS-LLM/llm_interfaces -DCMAKE_INSTALL_PREFIX=/home/yusuf/git_test/install/llm_interfaces
+[1.130s] -- The C compiler identification is GNU 11.4.0
+[1.131s] -- The CXX compiler identification is GNU 11.4.0
+[1.131s] -- Detecting C compiler ABI info
+[1.132s] -- Detecting C compiler ABI info - done
+[1.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.133s] -- Detecting C compile features
+[1.133s] -- Detecting C compile features - done
+[1.133s] -- Detecting CXX compiler ABI info
+[1.133s] -- Detecting CXX compiler ABI info - done
+[1.133s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.134s] -- Detecting CXX compile features
+[1.134s] -- Detecting CXX compile features - done
+[1.134s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.134s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.188s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.211s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.736s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.615s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.619s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.676s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.677s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.677s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.678s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.709s] -- Found PythonExtra: .so  
+[2.764s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.802s] -- Added test 'lint_cmake' to check CMake code style
+[2.804s] -- Added test 'xmllint' to check XML markup files
+[2.809s] -- Configuring done
+[2.856s] -- Generating done
+[2.860s] -- Build files have been written to: /home/yusuf/git_test/build/llm_interfaces
+[3.110s] Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/git_test/src/ROS-LLM/llm_interfaces -DCMAKE_INSTALL_PREFIX=/home/yusuf/git_test/install/llm_interfaces
+[3.111s] Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/git_test/build/llm_interfaces -- -j8 -l8
+[3.159s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.172s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.183s] [  5%] Built target ament_cmake_python_copy_llm_interfaces
+[3.565s] running egg_info
+[3.566s] creating llm_interfaces.egg-info
+[3.566s] writing llm_interfaces.egg-info/PKG-INFO
+[3.567s] writing dependency_links to llm_interfaces.egg-info/dependency_links.txt
+[3.567s] writing top-level names to llm_interfaces.egg-info/top_level.txt
+[3.567s] writing manifest file 'llm_interfaces.egg-info/SOURCES.txt'
+[3.570s] reading manifest file 'llm_interfaces.egg-info/SOURCES.txt'
+[3.570s] writing manifest file 'llm_interfaces.egg-info/SOURCES.txt'
+[3.614s] [  5%] Built target ament_cmake_python_build_llm_interfaces_egg
+[3.662s] [ 10%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/llm_interfaces/msg/detail/chat_gpt__functions.c.o[0m
+[3.662s] [ 10%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/llm_interfaces/srv/detail/chat_gpt__functions.c.o[0m
+[3.663s] [ 10%] Built target llm_interfaces__cpp
+[3.678s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.682s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.683s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.791s] [ 20%] [32m[1mLinking C shared library libllm_interfaces__rosidl_generator_c.so[0m
+[3.861s] [ 20%] Built target llm_interfaces__rosidl_generator_c
+[3.881s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.882s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.882s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.149s] [ 30%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_interfaces/srv/detail/dds_fastrtps/chat_gpt__type_support.cpp.o[0m
+[4.149s] [ 33%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_interfaces/msg/detail/dds_fastrtps/chat_gpt__type_support.cpp.o[0m
+[4.240s] [ 35%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_interfaces/msg/chat_gpt__type_support.cpp.o[0m
+[4.256s] [ 38%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_interfaces/srv/chat_gpt__type_support.cpp.o[0m
+[4.291s] [ 41%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_interfaces/msg/detail/chat_gpt__type_support.cpp.o[0m
+[4.512s] [ 43%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_interfaces/msg/chat_gpt__type_support.cpp.o[0m
+[4.579s] [ 46%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_interfaces/srv/chat_gpt__type_support.cpp.o[0m
+[4.643s] [ 48%] [32m[1mLinking CXX shared library libllm_interfaces__rosidl_typesupport_c.so[0m
+[4.649s] [ 51%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_interfaces/msg/detail/chat_gpt__type_support.c.o[0m
+[4.676s] [ 53%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_interfaces/msg/detail/chat_gpt__type_support_c.cpp.o[0m
+[4.718s] [ 56%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_interfaces/srv/detail/chat_gpt__type_support.c.o[0m
+[4.730s] [ 56%] Built target llm_interfaces__rosidl_typesupport_c
+[4.748s] [ 58%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_interfaces/srv/detail/chat_gpt__type_support.cpp.o[0m
+[4.793s] [ 61%] [32m[1mLinking C shared library libllm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.857s] [ 64%] [32mBuilding CXX object CMakeFiles/llm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_interfaces/srv/detail/chat_gpt__type_support_c.cpp.o[0m
+[4.857s] [ 64%] Built target llm_interfaces__rosidl_typesupport_introspection_c
+[4.863s] [ 66%] [32m[1mLinking CXX shared library libllm_interfaces__rosidl_typesupport_cpp.so[0m
+[4.954s] [ 66%] Built target llm_interfaces__rosidl_typesupport_cpp
+[5.114s] [ 69%] [32m[1mLinking CXX shared library libllm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.227s] [ 69%] Built target llm_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.391s] [ 71%] [32m[1mLinking CXX shared library libllm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.434s] [ 74%] [32m[1mLinking CXX shared library libllm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.473s] [ 74%] Built target llm_interfaces__rosidl_typesupport_introspection_cpp
+[5.535s] [ 74%] Built target llm_interfaces__rosidl_typesupport_fastrtps_c
+[5.559s] [ 74%] Built target llm_interfaces
+[5.583s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.034s] [ 76%] Built target llm_interfaces__py
+[6.060s] [ 82%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/llm_interfaces/msg/_chat_gpt_s.c.o[0m
+[6.060s] [ 82%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/llm_interfaces/srv/_chat_gpt_s.c.o[0m
+[6.196s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/llm_interfaces/libllm_interfaces__rosidl_generator_py.so[0m
+[6.239s] [ 84%] Built target llm_interfaces__rosidl_generator_py
+[6.267s] [ 92%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/llm_interfaces/_llm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.267s] [ 92%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/llm_interfaces/_llm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.267s] [ 92%] [32mBuilding C object CMakeFiles/llm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/llm_interfaces/_llm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.401s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/llm_interfaces/llm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.402s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/llm_interfaces/llm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.407s] [100%] [32m[1mLinking C shared library rosidl_generator_py/llm_interfaces/llm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.444s] [100%] Built target llm_interfaces__rosidl_typesupport_c__pyext
+[6.445s] [100%] Built target llm_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.454s] [100%] Built target llm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.470s] Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/git_test/build/llm_interfaces -- -j8 -l8
+[6.578s] Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/git_test/build/llm_interfaces
+[6.587s] -- Install configuration: ""
+[6.587s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/ament_index/resource_index/rosidl_interfaces/llm_interfaces
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/chat_gpt.h
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__type_support.h
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__struct.h
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__functions.h
+[6.588s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__functions.c
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/chat_gpt.h
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__type_support.h
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__struct.h
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__functions.h
+[6.589s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__functions.c
+[6.590s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/library_path.sh
+[6.590s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/library_path.dsv
+[6.590s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_generator_c.so
+[6.591s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_generator_c.so" to ""
+[6.591s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces
+[6.591s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv
+[6.591s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail
+[6.591s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__rosidl_typesupport_fastrtps_c.h
+[6.592s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg
+[6.592s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail
+[6.592s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__rosidl_typesupport_fastrtps_c.h
+[6.592s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.592s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.593s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.593s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces
+[6.593s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv
+[6.593s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail
+[6.593s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__rosidl_typesupport_introspection_c.h
+[6.593s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__type_support.c
+[6.593s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg
+[6.593s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.594s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail
+[6.594s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__rosidl_typesupport_introspection_c.h
+[6.594s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__type_support.c
+[6.594s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_introspection_c.so
+[6.595s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.595s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_c.so
+[6.596s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_c.so" to ""
+[6.596s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces
+[6.596s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv
+[6.596s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/chat_gpt.hpp
+[6.597s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail
+[6.597s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__traits.hpp
+[6.597s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__struct.hpp
+[6.597s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__builder.hpp
+[6.597s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg
+[6.597s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/chat_gpt.hpp
+[6.598s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail
+[6.598s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__traits.hpp
+[6.598s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__struct.hpp
+[6.598s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__builder.hpp
+[6.598s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces
+[6.598s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv
+[6.598s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail
+[6.598s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/dds_fastrtps
+[6.599s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__rosidl_typesupport_fastrtps_cpp.hpp
+[6.599s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg
+[6.599s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.599s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail
+[6.599s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/dds_fastrtps
+[6.599s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__rosidl_typesupport_fastrtps_cpp.hpp
+[6.600s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.601s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.601s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces
+[6.601s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv
+[6.601s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail
+[6.601s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__rosidl_typesupport_introspection_cpp.hpp
+[6.601s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/srv/detail/chat_gpt__type_support.cpp
+[6.601s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg
+[6.602s] -- Up-to-date: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail
+[6.602s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__rosidl_typesupport_introspection_cpp.hpp
+[6.602s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/include/llm_interfaces/llm_interfaces/msg/detail/chat_gpt__type_support.cpp
+[6.602s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.603s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.603s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_cpp.so
+[6.603s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.603s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/pythonpath.sh
+[6.604s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/pythonpath.dsv
+[6.604s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces-0.0.1-py3.10.egg-info
+[6.604s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[6.604s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[6.605s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[6.605s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[6.605s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces
+[6.606s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.606s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.606s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/_llm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.606s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/_llm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.607s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/_llm_interfaces_s.ep.rosidl_typesupport_c.c
+[6.607s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/srv
+[6.607s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/srv/_chat_gpt_s.c
+[6.607s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/srv/__init__.py
+[6.607s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/srv/_chat_gpt.py
+[6.608s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/__init__.py
+[6.608s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/libllm_interfaces__rosidl_generator_py.so
+[6.608s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.608s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/msg
+[6.608s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/msg/_chat_gpt_s.c
+[6.609s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/msg/__init__.py
+[6.609s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/msg/_chat_gpt.py
+[6.647s] Listing '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces'...
+[6.647s] Compiling '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/__init__.py'...
+[6.647s] Listing '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/msg'...
+[6.647s] Compiling '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/msg/__init__.py'...
+[6.647s] Compiling '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/msg/_chat_gpt.py'...
+[6.647s] Listing '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/srv'...
+[6.647s] Compiling '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/srv/__init__.py'...
+[6.647s] Compiling '/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/srv/_chat_gpt.py'...
+[6.653s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.653s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.654s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.654s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.655s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.655s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages/llm_interfaces/llm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.656s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_generator_py.so
+[6.656s] -- Set runtime path of "/home/yusuf/git_test/install/llm_interfaces/lib/libllm_interfaces__rosidl_generator_py.so" to ""
+[6.656s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/msg/ChatGPT.idl
+[6.657s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/srv/ChatGPT.idl
+[6.657s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/msg/ChatGPT.msg
+[6.657s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/srv/ChatGPT.srv
+[6.657s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/srv/ChatGPT_Request.msg
+[6.657s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/srv/ChatGPT_Response.msg
+[6.658s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/ament_index/resource_index/package_run_dependencies/llm_interfaces
+[6.658s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/ament_index/resource_index/parent_prefix_path/llm_interfaces
+[6.658s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/ament_prefix_path.sh
+[6.658s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/ament_prefix_path.dsv
+[6.659s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/path.sh
+[6.659s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/environment/path.dsv
+[6.659s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/local_setup.bash
+[6.659s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/local_setup.sh
+[6.659s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/local_setup.zsh
+[6.660s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/local_setup.dsv
+[6.660s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.dsv
+[6.660s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/ament_index/resource_index/packages/llm_interfaces
+[6.660s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_generator_cExport.cmake
+[6.660s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.661s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.661s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.661s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.661s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.661s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_cExport.cmake
+[6.662s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.662s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_generator_cppExport.cmake
+[6.662s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.663s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.663s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.663s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.663s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_cppExport.cmake
+[6.663s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.664s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_generator_pyExport.cmake
+[6.664s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/export_llm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.664s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.664s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.665s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.665s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.665s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.665s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.665s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.666s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfacesConfig.cmake
+[6.666s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/cmake/llm_interfacesConfig-version.cmake
+[6.666s] -- Installing: /home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.xml
+[6.670s] Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/git_test/build/llm_interfaces

@@ -1,0 +1,48 @@
+[2.230s] Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_robot': PYTHONPATH=/home/yusuf/git_test/build/llm_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_robot build --build-base /home/yusuf/git_test/build/llm_robot/build install --record /home/yusuf/git_test/build/llm_robot/install.log --single-version-externally-managed install_data
+[2.723s] running egg_info
+[2.723s] creating ../../../build/llm_robot/llm_robot.egg-info
+[2.724s] writing ../../../build/llm_robot/llm_robot.egg-info/PKG-INFO
+[2.724s] writing dependency_links to ../../../build/llm_robot/llm_robot.egg-info/dependency_links.txt
+[2.724s] writing entry points to ../../../build/llm_robot/llm_robot.egg-info/entry_points.txt
+[2.725s] writing requirements to ../../../build/llm_robot/llm_robot.egg-info/requires.txt
+[2.725s] writing top-level names to ../../../build/llm_robot/llm_robot.egg-info/top_level.txt
+[2.725s] writing manifest file '../../../build/llm_robot/llm_robot.egg-info/SOURCES.txt'
+[2.728s] reading manifest file '../../../build/llm_robot/llm_robot.egg-info/SOURCES.txt'
+[2.729s] writing manifest file '../../../build/llm_robot/llm_robot.egg-info/SOURCES.txt'
+[2.730s] running build
+[2.730s] running build_py
+[2.730s] creating /home/yusuf/git_test/build/llm_robot/build
+[2.731s] creating /home/yusuf/git_test/build/llm_robot/build/lib
+[2.731s] creating /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+[2.731s] copying llm_robot/multi_robot.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+[2.732s] copying llm_robot/turtle_robot.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+[2.732s] copying llm_robot/__init__.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+[2.732s] copying llm_robot/test.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+[2.732s] copying llm_robot/arx5_arm_robot.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+[2.732s] running install
+[2.733s] running install_lib
+[2.735s] creating /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+[2.735s] copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/multi_robot.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+[2.735s] copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/turtle_robot.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+[2.736s] copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/__init__.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+[2.736s] copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/test.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+[2.736s] copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/arx5_arm_robot.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+[2.737s] byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/multi_robot.py to multi_robot.cpython-310.pyc
+[2.739s] byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/turtle_robot.py to turtle_robot.cpython-310.pyc
+[2.740s] byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/__init__.py to __init__.cpython-310.pyc
+[2.740s] byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/test.py to test.cpython-310.pyc
+[2.740s] byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/arx5_arm_robot.py to arx5_arm_robot.cpython-310.pyc
+[2.741s] running install_data
+[2.741s] creating /home/yusuf/git_test/install/llm_robot/share/ament_index
+[2.741s] creating /home/yusuf/git_test/install/llm_robot/share/ament_index/resource_index
+[2.742s] creating /home/yusuf/git_test/install/llm_robot/share/ament_index/resource_index/packages
+[2.742s] copying resource/llm_robot -> /home/yusuf/git_test/install/llm_robot/share/ament_index/resource_index/packages
+[2.742s] copying package.xml -> /home/yusuf/git_test/install/llm_robot/share/llm_robot
+[2.742s] running install_egg_info
+[2.745s] Copying ../../../build/llm_robot/llm_robot.egg-info to /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot-0.0.1-py3.10.egg-info
+[2.746s] running install_scripts
+[2.772s] Installing arm_robot script to /home/yusuf/git_test/install/llm_robot/lib/llm_robot
+[2.772s] Installing multi_robot script to /home/yusuf/git_test/install/llm_robot/lib/llm_robot
+[2.773s] Installing turtle_robot script to /home/yusuf/git_test/install/llm_robot/lib/llm_robot
+[2.773s] writing list of installed files to '/home/yusuf/git_test/build/llm_robot/install.log'
+[3.081s] Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_robot' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_robot build --build-base /home/yusuf/git_test/build/llm_robot/build install --record /home/yusuf/git_test/build/llm_robot/install.log --single-version-externally-managed install_data

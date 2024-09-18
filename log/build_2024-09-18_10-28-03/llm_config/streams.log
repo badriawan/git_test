@@ -1,0 +1,39 @@
+[2.176s] Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_config': PYTHONPATH=/home/yusuf/git_test/build/llm_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_config build --build-base /home/yusuf/git_test/build/llm_config/build install --record /home/yusuf/git_test/build/llm_config/install.log --single-version-externally-managed install_data
+[2.576s] running egg_info
+[2.577s] creating ../../../build/llm_config/llm_config.egg-info
+[2.578s] writing ../../../build/llm_config/llm_config.egg-info/PKG-INFO
+[2.578s] writing dependency_links to ../../../build/llm_config/llm_config.egg-info/dependency_links.txt
+[2.578s] writing entry points to ../../../build/llm_config/llm_config.egg-info/entry_points.txt
+[2.578s] writing requirements to ../../../build/llm_config/llm_config.egg-info/requires.txt
+[2.579s] writing top-level names to ../../../build/llm_config/llm_config.egg-info/top_level.txt
+[2.579s] writing manifest file '../../../build/llm_config/llm_config.egg-info/SOURCES.txt'
+[2.583s] reading manifest file '../../../build/llm_config/llm_config.egg-info/SOURCES.txt'
+[2.584s] writing manifest file '../../../build/llm_config/llm_config.egg-info/SOURCES.txt'
+[2.584s] running build
+[2.584s] running build_py
+[2.585s] creating /home/yusuf/git_test/build/llm_config/build
+[2.585s] creating /home/yusuf/git_test/build/llm_config/build/lib
+[2.585s] creating /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+[2.585s] copying llm_config/robot_behavior.py -> /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+[2.586s] copying llm_config/user_config.py -> /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+[2.586s] copying llm_config/__init__.py -> /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+[2.586s] running install
+[2.587s] running install_lib
+[2.588s] creating /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+[2.589s] copying /home/yusuf/git_test/build/llm_config/build/lib/llm_config/robot_behavior.py -> /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+[2.589s] copying /home/yusuf/git_test/build/llm_config/build/lib/llm_config/user_config.py -> /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+[2.589s] copying /home/yusuf/git_test/build/llm_config/build/lib/llm_config/__init__.py -> /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+[2.590s] byte-compiling /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config/robot_behavior.py to robot_behavior.cpython-310.pyc
+[2.591s] byte-compiling /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config/user_config.py to user_config.cpython-310.pyc
+[2.591s] byte-compiling /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config/__init__.py to __init__.cpython-310.pyc
+[2.591s] running install_data
+[2.592s] creating /home/yusuf/git_test/install/llm_config/share/ament_index
+[2.592s] creating /home/yusuf/git_test/install/llm_config/share/ament_index/resource_index
+[2.592s] creating /home/yusuf/git_test/install/llm_config/share/ament_index/resource_index/packages
+[2.592s] copying resource/llm_config -> /home/yusuf/git_test/install/llm_config/share/ament_index/resource_index/packages
+[2.592s] copying package.xml -> /home/yusuf/git_test/install/llm_config/share/llm_config
+[2.593s] running install_egg_info
+[2.595s] Copying ../../../build/llm_config/llm_config.egg-info to /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config-0.0.1-py3.10.egg-info
+[2.597s] running install_scripts
+[2.629s] writing list of installed files to '/home/yusuf/git_test/build/llm_config/install.log'
+[2.672s] Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_config' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_config build --build-base /home/yusuf/git_test/build/llm_config/build install --record /home/yusuf/git_test/build/llm_config/install.log --single-version-externally-managed install_data

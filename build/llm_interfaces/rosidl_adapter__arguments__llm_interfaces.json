@@ -1,0 +1,7 @@
+{
+  "package_name": "llm_interfaces",
+  "non_idl_tuples": [
+    "/home/yusuf/git_test/src/ROS-LLM/llm_interfaces:msg/ChatGPT.msg",
+    "/home/yusuf/git_test/src/ROS-LLM/llm_interfaces:srv/ChatGPT.srv"
+  ]
+}

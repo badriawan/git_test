@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from llm_interfaces/srv/ChatGPT.srv
+// generated code does not contain a copyright notice
+
+
+module llm_interfaces {
+  module srv {
+    struct ChatGPT_Request {
+      string request_text;
+    };
+    struct ChatGPT_Response {
+      string response_text;
+    };
+  };
+};

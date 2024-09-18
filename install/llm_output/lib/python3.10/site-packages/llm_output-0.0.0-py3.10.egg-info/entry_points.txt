@@ -1,0 +1,3 @@
+[console_scripts]
+llm_audio_output = llm_output.llm_audio_output:main
+

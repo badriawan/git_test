@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/llm_output/llm_output.egg-info
+writing ../../../build/llm_output/llm_output.egg-info/PKG-INFO
+writing dependency_links to ../../../build/llm_output/llm_output.egg-info/dependency_links.txt
+writing entry points to ../../../build/llm_output/llm_output.egg-info/entry_points.txt
+writing requirements to ../../../build/llm_output/llm_output.egg-info/requires.txt
+writing top-level names to ../../../build/llm_output/llm_output.egg-info/top_level.txt
+writing manifest file '../../../build/llm_output/llm_output.egg-info/SOURCES.txt'
+reading manifest file '../../../build/llm_output/llm_output.egg-info/SOURCES.txt'
+writing manifest file '../../../build/llm_output/llm_output.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yusuf/git_test/build/llm_output/build
+creating /home/yusuf/git_test/build/llm_output/build/lib
+creating /home/yusuf/git_test/build/llm_output/build/lib/llm_output
+copying llm_output/llm_audio_output.py -> /home/yusuf/git_test/build/llm_output/build/lib/llm_output
+copying llm_output/__init__.py -> /home/yusuf/git_test/build/llm_output/build/lib/llm_output
+running install
+running install_lib
+creating /home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages/llm_output
+copying /home/yusuf/git_test/build/llm_output/build/lib/llm_output/llm_audio_output.py -> /home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages/llm_output
+copying /home/yusuf/git_test/build/llm_output/build/lib/llm_output/__init__.py -> /home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages/llm_output
+byte-compiling /home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages/llm_output/llm_audio_output.py to llm_audio_output.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages/llm_output/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yusuf/git_test/install/llm_output/share/ament_index
+creating /home/yusuf/git_test/install/llm_output/share/ament_index/resource_index
+creating /home/yusuf/git_test/install/llm_output/share/ament_index/resource_index/packages
+copying resource/llm_output -> /home/yusuf/git_test/install/llm_output/share/ament_index/resource_index/packages
+copying package.xml -> /home/yusuf/git_test/install/llm_output/share/llm_output
+running install_egg_info
+Copying ../../../build/llm_output/llm_output.egg-info to /home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages/llm_output-0.0.0-py3.10.egg-info
+running install_scripts
+Installing llm_audio_output script to /home/yusuf/git_test/install/llm_output/lib/llm_output
+writing list of installed files to '/home/yusuf/git_test/build/llm_output/install.log'

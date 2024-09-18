@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from llm_interfaces/msg/ChatGPT.msg
+// generated code does not contain a copyright notice
+
+
+module llm_interfaces {
+  module msg {
+    struct ChatGPT {
+      string text;
+    };
+  };
+};

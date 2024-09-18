@@ -1,0 +1,39 @@
+[2.167s] Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup': PYTHONPATH=/home/yusuf/git_test/build/llm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_bringup build --build-base /home/yusuf/git_test/build/llm_bringup/build install --record /home/yusuf/git_test/build/llm_bringup/install.log --single-version-externally-managed install_data
+[2.577s] running egg_info
+[2.578s] creating ../../../build/llm_bringup/llm_bringup.egg-info
+[2.579s] writing ../../../build/llm_bringup/llm_bringup.egg-info/PKG-INFO
+[2.579s] writing dependency_links to ../../../build/llm_bringup/llm_bringup.egg-info/dependency_links.txt
+[2.579s] writing entry points to ../../../build/llm_bringup/llm_bringup.egg-info/entry_points.txt
+[2.579s] writing requirements to ../../../build/llm_bringup/llm_bringup.egg-info/requires.txt
+[2.580s] writing top-level names to ../../../build/llm_bringup/llm_bringup.egg-info/top_level.txt
+[2.580s] writing manifest file '../../../build/llm_bringup/llm_bringup.egg-info/SOURCES.txt'
+[2.582s] reading manifest file '../../../build/llm_bringup/llm_bringup.egg-info/SOURCES.txt'
+[2.583s] writing manifest file '../../../build/llm_bringup/llm_bringup.egg-info/SOURCES.txt'
+[2.584s] running build
+[2.584s] running build_py
+[2.584s] creating /home/yusuf/git_test/build/llm_bringup/build
+[2.584s] creating /home/yusuf/git_test/build/llm_bringup/build/lib
+[2.584s] creating /home/yusuf/git_test/build/llm_bringup/build/lib/llm_bringup
+[2.584s] copying llm_bringup/__init__.py -> /home/yusuf/git_test/build/llm_bringup/build/lib/llm_bringup
+[2.585s] running install
+[2.585s] running install_lib
+[2.586s] creating /home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages/llm_bringup
+[2.586s] copying /home/yusuf/git_test/build/llm_bringup/build/lib/llm_bringup/__init__.py -> /home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages/llm_bringup
+[2.586s] byte-compiling /home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages/llm_bringup/__init__.py to __init__.cpython-310.pyc
+[2.587s] running install_data
+[2.587s] creating /home/yusuf/git_test/install/llm_bringup/share/ament_index
+[2.587s] creating /home/yusuf/git_test/install/llm_bringup/share/ament_index/resource_index
+[2.587s] creating /home/yusuf/git_test/install/llm_bringup/share/ament_index/resource_index/packages
+[2.588s] copying resource/llm_bringup -> /home/yusuf/git_test/install/llm_bringup/share/ament_index/resource_index/packages
+[2.588s] copying package.xml -> /home/yusuf/git_test/install/llm_bringup/share/llm_bringup
+[2.588s] creating /home/yusuf/git_test/install/llm_bringup/share/llm_bringup/launch
+[2.588s] copying launch/chatgpt_with_turtle_robot.launch.py -> /home/yusuf/git_test/install/llm_bringup/share/llm_bringup/launch
+[2.588s] copying launch/chatgpt_with_arm_robot.launch.py -> /home/yusuf/git_test/install/llm_bringup/share/llm_bringup/launch
+[2.588s] copying launch/chatgpt_with_multi_robot.launch.py -> /home/yusuf/git_test/install/llm_bringup/share/llm_bringup/launch
+[2.589s] copying launch/audio_in_text_out_demo.launch.py -> /home/yusuf/git_test/install/llm_bringup/share/llm_bringup/launch
+[2.589s] copying launch/local_chatgpt_with_multi_robot.launch.py -> /home/yusuf/git_test/install/llm_bringup/share/llm_bringup/launch
+[2.589s] running install_egg_info
+[2.591s] Copying ../../../build/llm_bringup/llm_bringup.egg-info to /home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages/llm_bringup-0.0.1-py3.10.egg-info
+[2.592s] running install_scripts
+[2.624s] writing list of installed files to '/home/yusuf/git_test/build/llm_bringup/install.log'
+[2.693s] Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_bringup build --build-base /home/yusuf/git_test/build/llm_bringup/build install --record /home/yusuf/git_test/build/llm_bringup/install.log --single-version-externally-managed install_data

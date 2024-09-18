@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../build/llm_config/llm_config.egg-info
+writing ../../../build/llm_config/llm_config.egg-info/PKG-INFO
+writing dependency_links to ../../../build/llm_config/llm_config.egg-info/dependency_links.txt
+writing entry points to ../../../build/llm_config/llm_config.egg-info/entry_points.txt
+writing requirements to ../../../build/llm_config/llm_config.egg-info/requires.txt
+writing top-level names to ../../../build/llm_config/llm_config.egg-info/top_level.txt
+writing manifest file '../../../build/llm_config/llm_config.egg-info/SOURCES.txt'
+reading manifest file '../../../build/llm_config/llm_config.egg-info/SOURCES.txt'
+writing manifest file '../../../build/llm_config/llm_config.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yusuf/git_test/build/llm_config/build
+creating /home/yusuf/git_test/build/llm_config/build/lib
+creating /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+copying llm_config/robot_behavior.py -> /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+copying llm_config/user_config.py -> /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+copying llm_config/__init__.py -> /home/yusuf/git_test/build/llm_config/build/lib/llm_config
+running install
+running install_lib
+creating /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+copying /home/yusuf/git_test/build/llm_config/build/lib/llm_config/robot_behavior.py -> /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+copying /home/yusuf/git_test/build/llm_config/build/lib/llm_config/user_config.py -> /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+copying /home/yusuf/git_test/build/llm_config/build/lib/llm_config/__init__.py -> /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config
+byte-compiling /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config/robot_behavior.py to robot_behavior.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config/user_config.py to user_config.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yusuf/git_test/install/llm_config/share/ament_index
+creating /home/yusuf/git_test/install/llm_config/share/ament_index/resource_index
+creating /home/yusuf/git_test/install/llm_config/share/ament_index/resource_index/packages
+copying resource/llm_config -> /home/yusuf/git_test/install/llm_config/share/ament_index/resource_index/packages
+copying package.xml -> /home/yusuf/git_test/install/llm_config/share/llm_config
+running install_egg_info
+Copying ../../../build/llm_config/llm_config.egg-info to /home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages/llm_config-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yusuf/git_test/build/llm_config/install.log'

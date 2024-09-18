@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: llm-model
+Version: 0.0.1
+Summary: The llm_model package provides a conversational interface using the OpenAI API through the implementation of the ChatGPT node.
+Home-page: UNKNOWN
+Maintainer: hermanye
+Maintainer-email: hermanye233@icloud.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

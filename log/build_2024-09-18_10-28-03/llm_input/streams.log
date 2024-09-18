@@ -1,0 +1,41 @@
+[1.016s] Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_input': AMENT_PREFIX_PATH=/home/yusuf/git_test/install/llm_config:${AMENT_PREFIX_PATH} PYTHONPATH=/home/yusuf/git_test/build/llm_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_input build --build-base /home/yusuf/git_test/build/llm_input/build install --record /home/yusuf/git_test/build/llm_input/install.log --single-version-externally-managed install_data
+[1.557s] running egg_info
+[1.560s] creating ../../../build/llm_input/llm_input.egg-info
+[1.561s] writing ../../../build/llm_input/llm_input.egg-info/PKG-INFO
+[1.561s] writing dependency_links to ../../../build/llm_input/llm_input.egg-info/dependency_links.txt
+[1.561s] writing entry points to ../../../build/llm_input/llm_input.egg-info/entry_points.txt
+[1.561s] writing requirements to ../../../build/llm_input/llm_input.egg-info/requires.txt
+[1.561s] writing top-level names to ../../../build/llm_input/llm_input.egg-info/top_level.txt
+[1.561s] writing manifest file '../../../build/llm_input/llm_input.egg-info/SOURCES.txt'
+[1.564s] reading manifest file '../../../build/llm_input/llm_input.egg-info/SOURCES.txt'
+[1.566s] writing manifest file '../../../build/llm_input/llm_input.egg-info/SOURCES.txt'
+[1.567s] running build
+[1.567s] running build_py
+[1.568s] creating /home/yusuf/git_test/build/llm_input/build
+[1.569s] creating /home/yusuf/git_test/build/llm_input/build/lib
+[1.569s] creating /home/yusuf/git_test/build/llm_input/build/lib/llm_input
+[1.570s] copying llm_input/__init__.py -> /home/yusuf/git_test/build/llm_input/build/lib/llm_input
+[1.570s] copying llm_input/llm_audio_input.py -> /home/yusuf/git_test/build/llm_input/build/lib/llm_input
+[1.571s] copying llm_input/llm_audio_input_local.py -> /home/yusuf/git_test/build/llm_input/build/lib/llm_input
+[1.574s] running install
+[1.575s] running install_lib
+[1.575s] creating /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input
+[1.575s] copying /home/yusuf/git_test/build/llm_input/build/lib/llm_input/__init__.py -> /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input
+[1.576s] copying /home/yusuf/git_test/build/llm_input/build/lib/llm_input/llm_audio_input.py -> /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input
+[1.576s] copying /home/yusuf/git_test/build/llm_input/build/lib/llm_input/llm_audio_input_local.py -> /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input
+[1.577s] byte-compiling /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input/__init__.py to __init__.cpython-310.pyc
+[1.577s] byte-compiling /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input/llm_audio_input.py to llm_audio_input.cpython-310.pyc
+[1.579s] byte-compiling /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input/llm_audio_input_local.py to llm_audio_input_local.cpython-310.pyc
+[1.583s] running install_data
+[1.583s] creating /home/yusuf/git_test/install/llm_input/share/ament_index
+[1.584s] creating /home/yusuf/git_test/install/llm_input/share/ament_index/resource_index
+[1.584s] creating /home/yusuf/git_test/install/llm_input/share/ament_index/resource_index/packages
+[1.584s] copying resource/llm_input -> /home/yusuf/git_test/install/llm_input/share/ament_index/resource_index/packages
+[1.584s] copying package.xml -> /home/yusuf/git_test/install/llm_input/share/llm_input
+[1.584s] running install_egg_info
+[1.586s] Copying ../../../build/llm_input/llm_input.egg-info to /home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages/llm_input-0.0.1-py3.10.egg-info
+[1.588s] running install_scripts
+[1.633s] Installing llm_audio_input script to /home/yusuf/git_test/install/llm_input/lib/llm_input
+[1.633s] Installing llm_audio_input_local script to /home/yusuf/git_test/install/llm_input/lib/llm_input
+[1.636s] writing list of installed files to '/home/yusuf/git_test/build/llm_input/install.log'
+[1.686s] Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_input' returned '0': AMENT_PREFIX_PATH=/home/yusuf/git_test/install/llm_config:${AMENT_PREFIX_PATH} PYTHONPATH=/home/yusuf/git_test/build/llm_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_input build --build-base /home/yusuf/git_test/build/llm_input/build install --record /home/yusuf/git_test/build/llm_input/install.log --single-version-externally-managed install_data

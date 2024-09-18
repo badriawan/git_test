@@ -1,0 +1,3 @@
+[console_scripts]
+chatgpt = llm_model.chatgpt:main
+

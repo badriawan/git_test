@@ -1,0 +1,5 @@
+[console_scripts]
+arm_robot = llm_robot.arx5_arm_robot:main
+multi_robot = llm_robot.multi_robot:main
+turtle_robot = llm_robot.turtle_robot:main
+

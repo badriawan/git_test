@@ -1,0 +1,46 @@
+running egg_info
+creating ../../../build/llm_robot/llm_robot.egg-info
+writing ../../../build/llm_robot/llm_robot.egg-info/PKG-INFO
+writing dependency_links to ../../../build/llm_robot/llm_robot.egg-info/dependency_links.txt
+writing entry points to ../../../build/llm_robot/llm_robot.egg-info/entry_points.txt
+writing requirements to ../../../build/llm_robot/llm_robot.egg-info/requires.txt
+writing top-level names to ../../../build/llm_robot/llm_robot.egg-info/top_level.txt
+writing manifest file '../../../build/llm_robot/llm_robot.egg-info/SOURCES.txt'
+reading manifest file '../../../build/llm_robot/llm_robot.egg-info/SOURCES.txt'
+writing manifest file '../../../build/llm_robot/llm_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yusuf/git_test/build/llm_robot/build
+creating /home/yusuf/git_test/build/llm_robot/build/lib
+creating /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+copying llm_robot/multi_robot.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+copying llm_robot/turtle_robot.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+copying llm_robot/__init__.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+copying llm_robot/test.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+copying llm_robot/arx5_arm_robot.py -> /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot
+running install
+running install_lib
+creating /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/multi_robot.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/turtle_robot.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/__init__.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/test.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+copying /home/yusuf/git_test/build/llm_robot/build/lib/llm_robot/arx5_arm_robot.py -> /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot
+byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/multi_robot.py to multi_robot.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/turtle_robot.py to turtle_robot.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/test.py to test.cpython-310.pyc
+byte-compiling /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot/arx5_arm_robot.py to arx5_arm_robot.cpython-310.pyc
+running install_data
+creating /home/yusuf/git_test/install/llm_robot/share/ament_index
+creating /home/yusuf/git_test/install/llm_robot/share/ament_index/resource_index
+creating /home/yusuf/git_test/install/llm_robot/share/ament_index/resource_index/packages
+copying resource/llm_robot -> /home/yusuf/git_test/install/llm_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/yusuf/git_test/install/llm_robot/share/llm_robot
+running install_egg_info
+Copying ../../../build/llm_robot/llm_robot.egg-info to /home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages/llm_robot-0.0.1-py3.10.egg-info
+running install_scripts
+Installing arm_robot script to /home/yusuf/git_test/install/llm_robot/lib/llm_robot
+Installing multi_robot script to /home/yusuf/git_test/install/llm_robot/lib/llm_robot
+Installing turtle_robot script to /home/yusuf/git_test/install/llm_robot/lib/llm_robot
+writing list of installed files to '/home/yusuf/git_test/build/llm_robot/install.log'

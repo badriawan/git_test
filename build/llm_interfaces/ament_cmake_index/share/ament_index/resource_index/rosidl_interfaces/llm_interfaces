@@ -1,0 +1,6 @@
+msg/ChatGPT.idl
+msg/ChatGPT.msg
+srv/ChatGPT.idl
+srv/ChatGPT.srv
+srv/ChatGPT_Request.msg
+srv/ChatGPT_Response.msg
