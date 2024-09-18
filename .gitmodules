@@ -1,0 +1,4 @@
+[submodule "ROS-LLM"]
+	path = ROS-LLM
+	url = https://github.com/Auromix/ROS-LLM.git
+	branch = ros2-humble
