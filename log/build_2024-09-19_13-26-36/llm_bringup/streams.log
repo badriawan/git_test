@@ -1,0 +1,20 @@
+[3.575s] Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup': PYTHONPATH=/home/yusuf/git_test/build/llm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_bringup build --build-base /home/yusuf/git_test/build/llm_bringup/build install --record /home/yusuf/git_test/build/llm_bringup/install.log --single-version-externally-managed install_data
+[4.048s] running egg_info
+[4.049s] writing ../../../build/llm_bringup/llm_bringup.egg-info/PKG-INFO
+[4.049s] writing dependency_links to ../../../build/llm_bringup/llm_bringup.egg-info/dependency_links.txt
+[4.050s] writing entry points to ../../../build/llm_bringup/llm_bringup.egg-info/entry_points.txt
+[4.050s] writing requirements to ../../../build/llm_bringup/llm_bringup.egg-info/requires.txt
+[4.050s] writing top-level names to ../../../build/llm_bringup/llm_bringup.egg-info/top_level.txt
+[4.053s] reading manifest file '../../../build/llm_bringup/llm_bringup.egg-info/SOURCES.txt'
+[4.055s] writing manifest file '../../../build/llm_bringup/llm_bringup.egg-info/SOURCES.txt'
+[4.055s] running build
+[4.055s] running build_py
+[4.055s] running install
+[4.056s] running install_lib
+[4.059s] running install_data
+[4.059s] running install_egg_info
+[4.063s] removing '/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages/llm_bringup-0.0.1-py3.10.egg-info' (and everything under it)
+[4.063s] Copying ../../../build/llm_bringup/llm_bringup.egg-info to /home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages/llm_bringup-0.0.1-py3.10.egg-info
+[4.064s] running install_scripts
+[4.095s] writing list of installed files to '/home/yusuf/git_test/build/llm_bringup/install.log'
+[4.150s] Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_bringup build --build-base /home/yusuf/git_test/build/llm_bringup/build install --record /home/yusuf/git_test/build/llm_bringup/install.log --single-version-externally-managed install_data

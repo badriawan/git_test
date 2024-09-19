@@ -1,0 +1,506 @@
+[0.239s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.240s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d2d3c60f010>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d2d3c60e950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d2d3c60e950>>)
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.679s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yusuf/git_test'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'ros'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extensions ['cmake', 'python']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'cmake'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'python'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extensions ['python_setup_py']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM) by extension 'python_setup_py'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extension 'ignore'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extension 'ignore_ament_install'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_bringup) by extension 'ros'
+[0.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-LLM/llm_bringup' with type 'ros.ament_python' and name 'llm_bringup'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extension 'ignore_ament_install'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extensions ['colcon_pkg']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extension 'colcon_pkg'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_config) by extension 'ros'
+[0.703s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-LLM/llm_config' with type 'ros.ament_python' and name 'llm_config'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extensions ['colcon_pkg']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'colcon_pkg'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extensions ['colcon_meta']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'colcon_meta'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extensions ['ros']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'ros'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extensions ['cmake', 'python']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'cmake'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'python'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extensions ['python_setup_py']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_imgs) by extension 'python_setup_py'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_input) by extension 'ros'
+[0.706s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-LLM/llm_input' with type 'ros.ament_python' and name 'llm_input'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extensions ['colcon_meta']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'colcon_meta'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extensions ['ros']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'ros'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extensions ['cmake', 'python']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'cmake'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'python'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extensions ['python_setup_py']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_install) by extension 'python_setup_py'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_interfaces) by extension 'ros'
+[0.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-LLM/llm_interfaces' with type 'ros.ament_cmake' and name 'llm_interfaces'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extension 'ignore'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extension 'ignore_ament_install'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extensions ['colcon_pkg']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extension 'colcon_meta'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extensions ['ros']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_model) by extension 'ros'
+[0.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-LLM/llm_model' with type 'ros.ament_python' and name 'llm_model'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_output) by extension 'ros'
+[0.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-LLM/llm_output' with type 'ros.ament_python' and name 'llm_output'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extensions ['colcon_meta']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-LLM/llm_robot) by extension 'ros'
+[0.714s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-LLM/llm_robot' with type 'ros.ament_python' and name 'llm_robot'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore_ament_install'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_pkg']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_pkg'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_meta']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_meta'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ros'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['cmake', 'python']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'cmake'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['python_setup_py']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python_setup_py'
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.763s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 429 installed packages in /opt/ros/humble
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.846s] DEBUG:colcon.colcon_core.verb:Building package 'llm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/git_test/build/llm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/git_test/install/llm_bringup', 'merge_install': False, 'path': '/home/yusuf/git_test/src/ROS-LLM/llm_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'cmake_args' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'cmake_target' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.847s] DEBUG:colcon.colcon_core.verb:Building package 'llm_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/git_test/build/llm_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/git_test/install/llm_config', 'merge_install': False, 'path': '/home/yusuf/git_test/src/ROS-LLM/llm_config', 'symlink_install': False, 'test_result_base': None}
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.847s] Level 5:colcon.colcon_core.verb:set package 'llm_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.848s] DEBUG:colcon.colcon_core.verb:Building package 'llm_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/git_test/build/llm_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/git_test/install/llm_interfaces', 'merge_install': False, 'path': '/home/yusuf/git_test/src/ROS-LLM/llm_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'cmake_args' from command line to 'None'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'cmake_target' from command line to 'None'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'cmake_clean_cache' from command line to 'False'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'cmake_clean_first' from command line to 'False'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'cmake_force_configure' from command line to 'False'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'ament_cmake_args' from command line to 'None'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'catkin_cmake_args' from command line to 'None'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'llm_output' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.848s] DEBUG:colcon.colcon_core.verb:Building package 'llm_output' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/git_test/build/llm_output', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/git_test/install/llm_output', 'merge_install': False, 'path': '/home/yusuf/git_test/src/ROS-LLM/llm_output', 'symlink_install': False, 'test_result_base': None}
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'cmake_target' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'llm_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.849s] DEBUG:colcon.colcon_core.verb:Building package 'llm_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/git_test/build/llm_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/git_test/install/llm_robot', 'merge_install': False, 'path': '/home/yusuf/git_test/src/ROS-LLM/llm_robot', 'symlink_install': False, 'test_result_base': None}
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'cmake_target' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'cmake_clean_first' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'cmake_force_configure' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'ament_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'catkin_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'llm_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.850s] DEBUG:colcon.colcon_core.verb:Building package 'llm_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/git_test/build/llm_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/git_test/install/llm_input', 'merge_install': False, 'path': '/home/yusuf/git_test/src/ROS-LLM/llm_input', 'symlink_install': False, 'test_result_base': None}
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'cmake_target' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.851s] Level 5:colcon.colcon_core.verb:set package 'llm_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.851s] DEBUG:colcon.colcon_core.verb:Building package 'llm_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/git_test/build/llm_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/git_test/install/llm_model', 'merge_install': False, 'path': '/home/yusuf/git_test/src/ROS-LLM/llm_model', 'symlink_install': False, 'test_result_base': None}
+[0.851s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.853s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yusuf/git_test/src/ROS-LLM/llm_config' with build type 'ament_python'
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_config', 'ament_prefix_path')
+[0.861s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_config/share/llm_config/hook/ament_prefix_path.ps1'
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_config/share/llm_config/hook/ament_prefix_path.dsv'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_config/share/llm_config/hook/ament_prefix_path.sh'
+[0.864s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.872s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yusuf/git_test/src/ROS-LLM/llm_interfaces' with build type 'ament_cmake'
+[0.872s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yusuf/git_test/src/ROS-LLM/llm_interfaces'
+[0.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.879s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup' with build type 'ament_python'
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_bringup', 'ament_prefix_path')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/hook/ament_prefix_path.ps1'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/hook/ament_prefix_path.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/hook/ament_prefix_path.sh'
+[0.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.888s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yusuf/git_test/src/ROS-LLM/llm_output' with build type 'ament_python'
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_output', 'ament_prefix_path')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_output/share/llm_output/hook/ament_prefix_path.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_output/share/llm_output/hook/ament_prefix_path.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_output/share/llm_output/hook/ament_prefix_path.sh'
+[0.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.898s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yusuf/git_test/src/ROS-LLM/llm_robot' with build type 'ament_python'
+[0.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_robot', 'ament_prefix_path')
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_robot/share/llm_robot/hook/ament_prefix_path.ps1'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_robot/share/llm_robot/hook/ament_prefix_path.dsv'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_robot/share/llm_robot/hook/ament_prefix_path.sh'
+[0.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.545s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yusuf/git_test/src/ROS-LLM/llm_config'
+[1.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/git_test/build/llm_interfaces -- -j8 -l8
+[2.305s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup'
+[2.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.821s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yusuf/git_test/src/ROS-LLM/llm_output'
+[2.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.457s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yusuf/git_test/src/ROS-LLM/llm_robot'
+[3.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/git_test/build/llm_interfaces -- -j8 -l8
+[3.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/build/llm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/git_test/build/llm_interfaces
+[3.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_interfaces)
+[3.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/build/llm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/git_test/build/llm_interfaces
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces' for CMake module files
+[3.844s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces' for CMake config files
+[3.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_interfaces', 'cmake_prefix_path')
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/cmake_prefix_path.ps1'
+[3.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/cmake_prefix_path.dsv'
+[3.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/cmake_prefix_path.sh'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/lib'
+[3.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_interfaces', 'ld_library_path_lib')
+[3.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/ld_library_path_lib.ps1'
+[3.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/ld_library_path_lib.dsv'
+[3.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/ld_library_path_lib.sh'
+[3.854s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/bin'
+[3.854s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/lib/pkgconfig/llm_interfaces.pc'
+[3.856s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/lib/python3.10/site-packages'
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/bin'
+[3.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.ps1'
+[3.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.dsv'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.sh'
+[3.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.bash'
+[3.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.zsh'
+[3.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_interfaces/share/colcon-core/packages/llm_interfaces)
+[4.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_interfaces)
+[4.051s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces' for CMake module files
+[4.053s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces' for CMake config files
+[4.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_interfaces', 'cmake_prefix_path')
+[4.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/cmake_prefix_path.ps1'
+[4.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/cmake_prefix_path.dsv'
+[4.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/cmake_prefix_path.sh'
+[4.058s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/lib'
+[4.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_interfaces', 'ld_library_path_lib')
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/ld_library_path_lib.ps1'
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/ld_library_path_lib.dsv'
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/hook/ld_library_path_lib.sh'
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/bin'
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/lib/pkgconfig/llm_interfaces.pc'
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/lib/python3.10/site-packages'
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_interfaces/bin'
+[4.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.ps1'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.dsv'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.sh'
+[4.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.bash'
+[4.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_interfaces/share/llm_interfaces/package.zsh'
+[4.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_interfaces/share/colcon-core/packages/llm_interfaces)
+[4.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup': PYTHONPATH=/home/yusuf/git_test/build/llm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_bringup build --build-base /home/yusuf/git_test/build/llm_bringup/build install --record /home/yusuf/git_test/build/llm_bringup/install.log --single-version-externally-managed install_data
+[4.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_config': PYTHONPATH=/home/yusuf/git_test/build/llm_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_config build --build-base /home/yusuf/git_test/build/llm_config/build install --record /home/yusuf/git_test/build/llm_config/install.log --single-version-externally-managed install_data
+[4.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_output': PYTHONPATH=/home/yusuf/git_test/build/llm_output/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_output build --build-base /home/yusuf/git_test/build/llm_output/build install --record /home/yusuf/git_test/build/llm_output/install.log --single-version-externally-managed install_data
+[4.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_robot': PYTHONPATH=/home/yusuf/git_test/build/llm_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_robot build --build-base /home/yusuf/git_test/build/llm_robot/build install --record /home/yusuf/git_test/build/llm_robot/install.log --single-version-externally-managed install_data
+[5.028s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_bringup' for CMake module files
+[5.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_bringup' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_bringup build --build-base /home/yusuf/git_test/build/llm_bringup/build install --record /home/yusuf/git_test/build/llm_bringup/install.log --single-version-externally-managed install_data
+[5.030s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_bringup' for CMake config files
+[5.031s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_bringup/lib'
+[5.031s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_bringup/bin'
+[5.031s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_bringup/lib/pkgconfig/llm_bringup.pc'
+[5.032s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_bringup/lib/python3.10/site-packages'
+[5.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_bringup', 'pythonpath')
+[5.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/hook/pythonpath.ps1'
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/hook/pythonpath.dsv'
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/hook/pythonpath.sh'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_bringup/bin'
+[5.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_bringup)
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/package.ps1'
+[5.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/package.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/package.sh'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/package.bash'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_bringup/share/llm_bringup/package.zsh'
+[5.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_bringup/share/colcon-core/packages/llm_bringup)
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_config' for CMake module files
+[5.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_config' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_config build --build-base /home/yusuf/git_test/build/llm_config/build install --record /home/yusuf/git_test/build/llm_config/install.log --single-version-externally-managed install_data
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_config' for CMake config files
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_config/lib'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_config/bin'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_config/lib/pkgconfig/llm_config.pc'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages'
+[5.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_config', 'pythonpath')
+[5.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_config/share/llm_config/hook/pythonpath.ps1'
+[5.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_config/share/llm_config/hook/pythonpath.dsv'
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_config/share/llm_config/hook/pythonpath.sh'
+[5.048s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_config/bin'
+[5.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_config)
+[5.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_config/share/llm_config/package.ps1'
+[5.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_config/share/llm_config/package.dsv'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_config/share/llm_config/package.sh'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_config/share/llm_config/package.bash'
+[5.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_config/share/llm_config/package.zsh'
+[5.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_config/share/colcon-core/packages/llm_config)
+[5.052s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yusuf/git_test/src/ROS-LLM/llm_input' with build type 'ament_python'
+[5.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_input', 'ament_prefix_path')
+[5.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_input/share/llm_input/hook/ament_prefix_path.ps1'
+[5.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_input/share/llm_input/hook/ament_prefix_path.dsv'
+[5.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_input/share/llm_input/hook/ament_prefix_path.sh'
+[5.058s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.058s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.067s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yusuf/git_test/src/ROS-LLM/llm_model' with build type 'ament_python'
+[5.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_model', 'ament_prefix_path')
+[5.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_model/share/llm_model/hook/ament_prefix_path.ps1'
+[5.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_model/share/llm_model/hook/ament_prefix_path.dsv'
+[5.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_model/share/llm_model/hook/ament_prefix_path.sh'
+[5.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.085s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_output' for CMake module files
+[5.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_output' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_output/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_output build --build-base /home/yusuf/git_test/build/llm_output/build install --record /home/yusuf/git_test/build/llm_output/install.log --single-version-externally-managed install_data
+[5.088s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_output' for CMake config files
+[5.089s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_output/lib'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_output/bin'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_output/lib/pkgconfig/llm_output.pc'
+[5.091s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_output/lib/python3.10/site-packages'
+[5.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_output', 'pythonpath')
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_output/share/llm_output/hook/pythonpath.ps1'
+[5.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_output/share/llm_output/hook/pythonpath.dsv'
+[5.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_output/share/llm_output/hook/pythonpath.sh'
+[5.098s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_output/bin'
+[5.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_output)
+[5.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_output/share/llm_output/package.ps1'
+[5.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_output/share/llm_output/package.dsv'
+[5.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_output/share/llm_output/package.sh'
+[5.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_output/share/llm_output/package.bash'
+[5.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_output/share/llm_output/package.zsh'
+[5.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_output/share/colcon-core/packages/llm_output)
+[5.679s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yusuf/git_test/src/ROS-LLM/llm_input'
+[5.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.239s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yusuf/git_test/src/ROS-LLM/llm_model'
+[6.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.248s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_robot' for CMake module files
+[6.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_robot' returned '0': PYTHONPATH=/home/yusuf/git_test/build/llm_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_robot build --build-base /home/yusuf/git_test/build/llm_robot/build install --record /home/yusuf/git_test/build/llm_robot/install.log --single-version-externally-managed install_data
+[6.251s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_robot' for CMake config files
+[6.253s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_robot/lib'
+[6.253s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_robot/bin'
+[6.253s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_robot/lib/pkgconfig/llm_robot.pc'
+[6.254s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_robot/lib/python3.10/site-packages'
+[6.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_robot', 'pythonpath')
+[6.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_robot/share/llm_robot/hook/pythonpath.ps1'
+[6.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_robot/share/llm_robot/hook/pythonpath.dsv'
+[6.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_robot/share/llm_robot/hook/pythonpath.sh'
+[6.257s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_robot/bin'
+[6.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_robot)
+[6.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_robot/share/llm_robot/package.ps1'
+[6.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_robot/share/llm_robot/package.dsv'
+[6.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_robot/share/llm_robot/package.sh'
+[6.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_robot/share/llm_robot/package.bash'
+[6.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_robot/share/llm_robot/package.zsh'
+[6.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_robot/share/colcon-core/packages/llm_robot)
+[7.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_input': AMENT_PREFIX_PATH=/home/yusuf/git_test/install/llm_config:${AMENT_PREFIX_PATH} PYTHONPATH=/home/yusuf/git_test/build/llm_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_input build --build-base /home/yusuf/git_test/build/llm_input/build install --record /home/yusuf/git_test/build/llm_input/install.log --single-version-externally-managed install_data
+[7.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/git_test/src/ROS-LLM/llm_model': AMENT_PREFIX_PATH=/home/yusuf/git_test/install/llm_interfaces:/home/yusuf/git_test/install/llm_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yusuf/git_test/install/llm_interfaces LD_LIBRARY_PATH=/home/yusuf/git_test/install/llm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yusuf/git_test/build/llm_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages:/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_model build --build-base /home/yusuf/git_test/build/llm_model/build install --record /home/yusuf/git_test/build/llm_model/install.log --single-version-externally-managed install_data
+[7.700s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_input' for CMake module files
+[7.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_input' returned '0': AMENT_PREFIX_PATH=/home/yusuf/git_test/install/llm_config:${AMENT_PREFIX_PATH} PYTHONPATH=/home/yusuf/git_test/build/llm_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_input build --build-base /home/yusuf/git_test/build/llm_input/build install --record /home/yusuf/git_test/build/llm_input/install.log --single-version-externally-managed install_data
+[7.703s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_input' for CMake config files
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_input/lib'
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_input/bin'
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_input/lib/pkgconfig/llm_input.pc'
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_input/lib/python3.10/site-packages'
+[7.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_input', 'pythonpath')
+[7.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_input/share/llm_input/hook/pythonpath.ps1'
+[7.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_input/share/llm_input/hook/pythonpath.dsv'
+[7.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_input/share/llm_input/hook/pythonpath.sh'
+[7.707s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_input/bin'
+[7.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_input)
+[7.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_input/share/llm_input/package.ps1'
+[7.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_input/share/llm_input/package.dsv'
+[7.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_input/share/llm_input/package.sh'
+[7.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_input/share/llm_input/package.bash'
+[7.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_input/share/llm_input/package.zsh'
+[7.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_input/share/colcon-core/packages/llm_input)
+[7.728s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_model' for CMake module files
+[7.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/git_test/src/ROS-LLM/llm_model' returned '0': AMENT_PREFIX_PATH=/home/yusuf/git_test/install/llm_interfaces:/home/yusuf/git_test/install/llm_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yusuf/git_test/install/llm_interfaces LD_LIBRARY_PATH=/home/yusuf/git_test/install/llm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yusuf/git_test/build/llm_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages:/home/yusuf/git_test/install/llm_interfaces/local/lib/python3.10/dist-packages:/home/yusuf/git_test/install/llm_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/llm_model build --build-base /home/yusuf/git_test/build/llm_model/build install --record /home/yusuf/git_test/build/llm_model/install.log --single-version-externally-managed install_data
+[7.730s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_model' for CMake config files
+[7.730s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_model/lib'
+[7.731s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_model/bin'
+[7.731s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_model/lib/pkgconfig/llm_model.pc'
+[7.731s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_model/lib/python3.10/site-packages'
+[7.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('llm_model', 'pythonpath')
+[7.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_model/share/llm_model/hook/pythonpath.ps1'
+[7.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/git_test/install/llm_model/share/llm_model/hook/pythonpath.dsv'
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/git_test/install/llm_model/share/llm_model/hook/pythonpath.sh'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/git_test/install/llm_model/bin'
+[7.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(llm_model)
+[7.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_model/share/llm_model/package.ps1'
+[7.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/git_test/install/llm_model/share/llm_model/package.dsv'
+[7.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_model/share/llm_model/package.sh'
+[7.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_model/share/llm_model/package.bash'
+[7.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/git_test/install/llm_model/share/llm_model/package.zsh'
+[7.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/git_test/install/llm_model/share/colcon-core/packages/llm_model)
+[7.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.743s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.759s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.762s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.762s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/git_test/install/local_setup.ps1'
+[7.767s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yusuf/git_test/install/_local_setup_util_ps1.py'
+[7.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/git_test/install/setup.ps1'
+[7.776s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/git_test/install/local_setup.sh'
+[7.777s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yusuf/git_test/install/_local_setup_util_sh.py'
+[7.779s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/git_test/install/setup.sh'
+[7.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/git_test/install/local_setup.bash'
+[7.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/git_test/install/setup.bash'
+[7.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/git_test/install/local_setup.zsh'
+[7.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/git_test/install/setup.zsh'

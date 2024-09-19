@@ -4,3 +4,7 @@ llm_interfaces.egg-info/PKG-INFO
 llm_interfaces.egg-info/SOURCES.txt
 llm_interfaces.egg-info/dependency_links.txt
 llm_interfaces.egg-info/top_level.txt
+llm_interfaces/msg/__init__.py
+llm_interfaces/msg/_chat_gpt.py
+llm_interfaces/srv/__init__.py
+llm_interfaces/srv/_chat_gpt.py
